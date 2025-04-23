@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.mylabel{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:5em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.mybut{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1em;
+   padding:5px;
+   background-color: hsla(200,100%,50%);
+   color: white;
+   border-radius: 6px;
+   border: none;
+   margin: 2px;
+   
+}
+.mybut:hover{
+  cursor: pointer;
+  background-color:darkcyan ;
+  transition: background-color 0.3s ease;
+}
+
+.myheader{
+   border: 1px solid black;
+   border-radius: 6px;
+   border: none;
+   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.5);
+
+   width: 200px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;/*ensures that the label and button stack vertically*/
+  margin: 30px auto; /*horizantally centers the element*/
+  padding: 10px; 
+
+  
+}
+
+
+
