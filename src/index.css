@@ -48,5 +48,17 @@
   
 }
 
+.dark{
+   background-color: #222;
+   color: white;
+}
+.mydark{
+  padding: 5px;
+  border-radius: 6px;
+  background-color: gray;
+  color:white;
+
+}
+
 
 
